@@ -26,7 +26,7 @@ API REST construida con **Node.js + Express**, conectada a **PostgreSQL**, con a
 1. Clonar el repositorio:
 
    ```bash
-   git clone [https://github.com/yoselincode/soft_jobs](https://github.com/yoselincode/soft_jobs).git
+   git clone https://github.com/yoselincode/soft_jobs.git
    cd api-usuarios
    ```
 
