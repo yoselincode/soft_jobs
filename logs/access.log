@@ -1,0 +1,9 @@
+[20-08-2025, 8:37:18 p. m.] ::1 OPTIONS /login 204 44ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:37:18 p. m.] ::1 POST /login 401 151ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:37:57 p. m.] ::1 POST /login 401 149ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:39:20 p. m.] ::1 POST /login 401 104ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:40:14 p. m.] ::1 POST /login 401 170ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:46:40 p. m.] ::1 POST /usuarios 201 325ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:47:06 p. m.] ::1 POST /login 200 199ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:47:08 p. m.] ::1 GET /usuarios 200 10ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+[20-08-2025, 8:47:08 p. m.] ::1 GET /usuarios 304 8ms -> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
