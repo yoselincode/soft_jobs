@@ -1,4 +1,3 @@
-````markdown
 # API de Usuarios 👤
 
 API REST construida con **Node.js + Express**, conectada a **PostgreSQL**, con autenticación basada en **JWT** y manejo seguro de contraseñas con **bcrypt**.
@@ -25,11 +24,11 @@ API REST construida con **Node.js + Express**, conectada a **PostgreSQL**, con a
 ## ⚙️ Instalación
 
 1. Clonar el repositorio:
+
    ```bash
    git clone https://github.com/tuusuario/api-usuarios.git
    cd api-usuarios
    ```
-````
 
 2. Instalar dependencias:
 
@@ -75,7 +74,6 @@ API REST construida con **Node.js + Express**, conectada a **PostgreSQL**, con a
    ```
 
 5. Ejecutar en modo desarrollo:
-
    ```bash
    npm run dev
    ```
@@ -88,7 +86,7 @@ API REST construida con **Node.js + Express**, conectada a **PostgreSQL**, con a
 
 #### **POST** `/login`
 
-Inicia sesión con email y contraseña.
+Inicia sesión con email y contraseña.\
 **Body:**
 
 ```json
@@ -113,7 +111,7 @@ Inicia sesión con email y contraseña.
 
 #### **POST** `/usuarios`
 
-Registra un nuevo usuario.
+Registra un nuevo usuario.\
 **Body:**
 
 ```json
@@ -127,7 +125,7 @@ Registra un nuevo usuario.
 
 #### **GET** `/usuarios`
 
-Obtiene el usuario autenticado.
+Obtiene el usuario autenticado.\
 **Headers:**
 
 ```
@@ -136,7 +134,7 @@ Authorization: Bearer <jwt_token>
 
 #### **PUT** `/usuarios/:id`
 
-Actualiza un usuario (solo el propio).
+Actualiza un usuario (solo el propio).\
 **Headers:**
 
 ```
@@ -155,7 +153,7 @@ Authorization: Bearer <jwt_token>
 
 #### **DELETE** `/usuarios/:id`
 
-Elimina un usuario (solo el propio).
+Elimina un usuario (solo el propio).\
 **Headers:**
 
 ```
@@ -167,7 +165,3 @@ Authorization: Bearer <jwt_token>
 ## 📜 Licencia
 
 MIT
-
-```
-
-```
